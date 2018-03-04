@@ -11,7 +11,7 @@ const chalk = require('chalk')
 const fs = require('fs')
 
 let patterns = program.args
-if (!patterns) {
+if (!patterns.length) {
   try {
     patterns = fs.readFileSync('.disallow', 'utf8').split('\n').map(x => x.trim()).filter(Boolean)
   } catch (_) {}
