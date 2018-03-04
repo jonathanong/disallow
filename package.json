@@ -1,6 +1,6 @@
 {
   "name": "disallow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disallow certain types of files",
   "main": "bin/disallow.js",
   "bin": {
