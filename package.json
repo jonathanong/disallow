@@ -1,0 +1,39 @@
+{
+  "name": "disallow",
+  "version": "1.0.0",
+  "description": "Disallow certain types of files",
+  "main": "bin/disallow.js",
+  "bin": {
+    "disallow": "bin/disallow.js"
+  },
+  "scripts": {
+    "eslint": "eslint . --fix --cache"
+  },
+  "keywords": [
+    "test",
+    "disallow",
+    "files",
+    "git",
+    "repo",
+    "repository"
+  ],
+  "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.14.1",
+    "debug": "^3.1.0",
+    "globby": "^7.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "files": [
+    "bin"
+  ]
+}
